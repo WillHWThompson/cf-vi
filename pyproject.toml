@@ -1,0 +1,30 @@
+[build-system]
+requires = ["hatchling>=1.27"]
+build-backend = "hatchling.build"
+
+[project]
+name = "cfvi"
+dynamic = ["version"]
+description = "Exact Bayesian ReLU layers via characteristic functions, for PyTorch"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+authors = [
+    { name = "William H. W. Thompson" },
+    { name = "Guillaume St-Onge" },
+    { name = "Laurent Hébert-Dufresne" },
+    { name = "Jean-Gabriel Young" },
+]
+dependencies = ["torch>=2.0"]
+
+[project.urls]
+Repository = "https://github.com/WillHWThompson/cf-vi"
+
+[project.optional-dependencies]
+test = ["pytest", "scipy"]
+
+[tool.hatch.version]
+path = "src/cfvi/__init__.py"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/cfvi"]

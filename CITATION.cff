@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use cfvi, please cite the paper below."
+title: cfvi
+version: 0.1.0
+license: MIT
+repository-code: "https://github.com/WillHWThompson/cf-vi"
+authors:
+  - family-names: Thompson
+    given-names: William H. W.
+  - family-names: St-Onge
+    given-names: Guillaume
+  - family-names: Hébert-Dufresne
+    given-names: Laurent
+  - family-names: Young
+    given-names: Jean-Gabriel
+preferred-citation:
+  type: article
+  title: "Exact Bayesian layers via characteristic functions"
+  authors:
+    - family-names: Thompson
+      given-names: William H. W.
+    - family-names: St-Onge
+      given-names: Guillaume
+    - family-names: Hébert-Dufresne
+      given-names: Laurent
+    - family-names: Young
+      given-names: Jean-Gabriel
+  journal: "arXiv preprint arXiv:XXXX.XXXXX"  # placeholder: the arXiv id is not known yet
+  year: 2026
