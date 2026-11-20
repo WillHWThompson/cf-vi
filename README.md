@@ -93,13 +93,11 @@ The likelihoods are `nn.Module`s, so their parameters train with the head:
 
 ## Citation
 
-The arXiv identifier XXXX.XXXXX below is a placeholder until the preprint is posted.
-
 ```bibtex
 @article{thompson2026exact,
   title   = {Exact {B}ayesian layers via characteristic functions},
   author  = {Thompson, William H. W. and St-Onge, Guillaume and H{\'e}bert-Dufresne, Laurent and Young, Jean-Gabriel},
-  journal = {arXiv preprint arXiv:XXXX.XXXXX},
+  journal = {arXiv preprint arXiv:2611.26426},
   year    = {2026},
 }
 ```
