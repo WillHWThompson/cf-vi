@@ -1,7 +1,8 @@
 # cfvi
 
-`cfvi` is a Bayesian last layer for PyTorch
-
+`cfvi` is a Bayesian last layer for PyTorch and a compaion for the paper: 
+[Exact {B}ayesian layers via characteristic functions
+](https://arxiv.org/abs/2611.26426)
 
 ```bash
 pip install git+https://github.com/WillHWThompson/cf-vi
